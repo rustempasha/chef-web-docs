@@ -89,13 +89,10 @@ properties_list:
   default_value: 'false'
   description_list:
   - markdown: Use the user store of the local machine store if set to false.
-examples: "
-  Add PFX cert to local machine personal store and grant accounts\n\
-  \  read-only access to private key\n\n  ``` ruby\n  windows_certificate 'c:/test/mycert.pfx'\
-  \ do\n    pfx_password 'password'\n    private_key_acl [\"acme\\fred\", \"pc\\jane\"\
-  ]\n  end\n  ```\n\n  Add cert to trusted intermediate store\n\n  ``` ruby\n  windows_certificate\
-  \ 'c:/test/mycert.cer' do\n    store_name 'CA'\n  end\n  ```\n\n  Remove all certificates\
-  \ matching the subject\n\n  ``` ruby\n  windows_certificate 'me.acme.com' do\n \
-  \   action :delete\n  end\n  ```\n"
-
+examples: "**Add PFX cert to local machine personal store and grant accounts read-only
+  access to private key**\n\n```ruby\nwindows_certificate 'c:/test/mycert.pfx' do\n
+  \ pfx_password 'password'\n  private_key_acl [\"acme\fred\", \"pcjane\"]\nend\n```\n\n**Add
+  cert to trusted intermediate store**\n\n```ruby\nwindows_certificate 'c:/test/mycert.cer'
+  do\n  store_name 'CA'\nend\n```\n\n**Remove all certificates matching the subject**\n\n```ruby\nwindows_certificate
+  'me.acme.com' do\n  action :delete\nend\n```\n"
 ---

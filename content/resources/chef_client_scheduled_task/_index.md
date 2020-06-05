@@ -170,4 +170,14 @@ examples: |
       daemon_options ["--override-runlist mycorp_base::default"]
     end
   ```
+
+  **Run Chef Infra Client daily at 01:00 am, specifying a named run-list**:
+
+  ```ruby
+    chef_client_scheduled_task "Run chef-client named run-list daily" do
+      frequency 'daily'
+      start_time '01:00'
+      daemon_options ['-n audit_only']
+    end
+  ```
 ---
