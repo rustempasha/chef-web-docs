@@ -1,0 +1,246 @@
++++
+title = "Cookstyle Cops List"
+draft = false
+
+[menu]
+  [menu.workstation]
+    title = "Cops List"
+    identifier = "chef_workstation/chef_workstation_tools/cookstyle_cops/cops.md Cookstyle Cops"
+    parent = "chef_workstation/chef_workstation_tools/cookstyle_cops"
+    weight = 10
++++
+
+<!-- START_COP_LIST -->
+## Department ChefCorrectness
+
+[ChefCorrectness](/workstation/cops_chefcorrectness/) cops
+
+* [ChefCorrectness/BlockGuardWithOnlyString](/workstation/cops_chefcorrectness/#chefcorrectnessblockguardwithonlystring)
+* [ChefCorrectness/ChefApplicationFatal](/workstation/cops_chefcorrectness/#chefcorrectnesschefapplicationfatal)
+* [ChefCorrectness/ConditionalRubyShellout](/workstation/cops_chefcorrectness/#chefcorrectnessconditionalrubyshellout)
+* [ChefCorrectness/CookbookUsesNodeSave](/workstation/cops_chefcorrectness/#chefcorrectnesscookbookusesnodesave)
+* [ChefCorrectness/CookbooksDependsOnSelf](/workstation/cops_chefcorrectness/#chefcorrectnesscookbooksdependsonself)
+* [ChefCorrectness/DnfPackageAllowDowngrades](/workstation/cops_chefcorrectness/#chefcorrectnessdnfpackageallowdowngrades)
+* [ChefCorrectness/IncorrectLibraryInjection](/workstation/cops_chefcorrectness/#chefcorrectnessincorrectlibraryinjection)
+* [ChefCorrectness/InvalidNotificationTiming](/workstation/cops_chefcorrectness/#chefcorrectnessinvalidnotificationtiming)
+* [ChefCorrectness/InvalidPlatformFamilyHelper](/workstation/cops_chefcorrectness/#chefcorrectnessinvalidplatformfamilyhelper)
+* [ChefCorrectness/InvalidPlatformFamilyInCase](/workstation/cops_chefcorrectness/#chefcorrectnessinvalidplatformfamilyincase)
+* [ChefCorrectness/InvalidPlatformHelper](/workstation/cops_chefcorrectness/#chefcorrectnessinvalidplatformhelper)
+* [ChefCorrectness/InvalidPlatformInCase](/workstation/cops_chefcorrectness/#chefcorrectnessinvalidplatformincase)
+* [ChefCorrectness/InvalidPlatformMetadata](/workstation/cops_chefcorrectness/#chefcorrectnessinvalidplatformmetadata)
+* [ChefCorrectness/InvalidPlatformValueForPlatformFamilyHelper](/workstation/cops_chefcorrectness/#chefcorrectnessinvalidplatformvalueforplatformfamilyhelper)
+* [ChefCorrectness/InvalidPlatformValueForPlatformHelper](/workstation/cops_chefcorrectness/#chefcorrectnessinvalidplatformvalueforplatformhelper)
+* [ChefCorrectness/InvalidVersionMetadata](/workstation/cops_chefcorrectness/#chefcorrectnessinvalidversionmetadata)
+* [ChefCorrectness/LazyEvalNodeAttributeDefaults](/workstation/cops_chefcorrectness/#chefcorrectnesslazyevalnodeattributedefaults)
+* [ChefCorrectness/MalformedPlatformValueForPlatformHelper](/workstation/cops_chefcorrectness/#chefcorrectnessmalformedplatformvalueforplatformhelper)
+* [ChefCorrectness/MetadataMissingName](/workstation/cops_chefcorrectness/#chefcorrectnessmetadatamissingname)
+* [ChefCorrectness/NodeNormal](/workstation/cops_chefcorrectness/#chefcorrectnessnodenormal)
+* [ChefCorrectness/NodeNormalUnless](/workstation/cops_chefcorrectness/#chefcorrectnessnodenormalunless)
+* [ChefCorrectness/NotifiesActionNotSymbol](/workstation/cops_chefcorrectness/#chefcorrectnessnotifiesactionnotsymbol)
+* [ChefCorrectness/OpenSSLPasswordHelpers](/workstation/cops_chefcorrectness/#chefcorrectnessopensslpasswordhelpers)
+* [ChefCorrectness/PowershellScriptDeleteFile](/workstation/cops_chefcorrectness/#chefcorrectnesspowershellscriptdeletefile)
+* [ChefCorrectness/ResourceSetsInternalProperties](/workstation/cops_chefcorrectness/#chefcorrectnessresourcesetsinternalproperties)
+* [ChefCorrectness/ResourceSetsNameProperty](/workstation/cops_chefcorrectness/#chefcorrectnessresourcesetsnameproperty)
+* [ChefCorrectness/ResourceWithNoneAction](/workstation/cops_chefcorrectness/#chefcorrectnessresourcewithnoneaction)
+* [ChefCorrectness/ScopedFileExist](/workstation/cops_chefcorrectness/#chefcorrectnessscopedfileexist)
+* [ChefCorrectness/ServiceResource](/workstation/cops_chefcorrectness/#chefcorrectnessserviceresource)
+* [ChefCorrectness/TmpPath](/workstation/cops_chefcorrectness/#chefcorrectnesstmppath)
+
+## Department ChefDeprecations
+
+[ChefDeprecations](/workstation/cops_chefdeprecations/) cops
+
+* [ChefDeprecations/ChefHandlerUsesSupports](/workstation/cops_chefdeprecations/#chefdeprecationschefhandlerusessupports)
+* [ChefDeprecations/ChefRewind](/workstation/cops_chefdeprecations/#chefdeprecationschefrewind)
+* [ChefDeprecations/ChefSpecCoverageReport](/workstation/cops_chefdeprecations/#chefdeprecationschefspeccoveragereport)
+* [ChefDeprecations/ChefSpecLegacyRunner](/workstation/cops_chefdeprecations/#chefdeprecationschefspeclegacyrunner)
+* [ChefDeprecations/ChefWindowsPlatformHelper](/workstation/cops_chefdeprecations/#chefdeprecationschefwindowsplatformhelper)
+* [ChefDeprecations/Cheffile](/workstation/cops_chefdeprecations/#chefdeprecationscheffile)
+* [ChefDeprecations/ChocolateyPackageUninstallAction](/workstation/cops_chefdeprecations/#chefdeprecationschocolateypackageuninstallaction)
+* [ChefDeprecations/CookbookDependsOnCompatResource](/workstation/cops_chefdeprecations/#chefdeprecationscookbookdependsoncompatresource)
+* [ChefDeprecations/CookbookDependsOnPartialSearch](/workstation/cops_chefdeprecations/#chefdeprecationscookbookdependsonpartialsearch)
+* [ChefDeprecations/CookbookDependsOnPoise](/workstation/cops_chefdeprecations/#chefdeprecationscookbookdependsonpoise)
+* [ChefDeprecations/DeprecatedChefSpecPlatform](/workstation/cops_chefdeprecations/#chefdeprecationsdeprecatedchefspecplatform)
+* [ChefDeprecations/DeprecatedPlatformMethods](/workstation/cops_chefdeprecations/#chefdeprecationsdeprecatedplatformmethods)
+* [ChefDeprecations/DeprecatedShelloutMethods](/workstation/cops_chefdeprecations/#chefdeprecationsdeprecatedshelloutmethods)
+* [ChefDeprecations/DeprecatedWindowsVersionCheck](/workstation/cops_chefdeprecations/#chefdeprecationsdeprecatedwindowsversioncheck)
+* [ChefDeprecations/DeprecatedYumRepositoryProperties](/workstation/cops_chefdeprecations/#chefdeprecationsdeprecatedyumrepositoryproperties)
+* [ChefDeprecations/EOLAuditModeUsage](/workstation/cops_chefdeprecations/#chefdeprecationseolauditmodeusage)
+* [ChefDeprecations/EasyInstallResource](/workstation/cops_chefdeprecations/#chefdeprecationseasyinstallresource)
+* [ChefDeprecations/EpicFail](/workstation/cops_chefdeprecations/#chefdeprecationsepicfail)
+* [ChefDeprecations/ErlCallResource](/workstation/cops_chefdeprecations/#chefdeprecationserlcallresource)
+* [ChefDeprecations/HWRPWithoutProvides](/workstation/cops_chefdeprecations/#chefdeprecationshwrpwithoutprovides)
+* [ChefDeprecations/IncludingXMLRubyRecipe](/workstation/cops_chefdeprecations/#chefdeprecationsincludingxmlrubyrecipe)
+* [ChefDeprecations/IncludingYumDNFCompatRecipe](/workstation/cops_chefdeprecations/#chefdeprecationsincludingyumdnfcompatrecipe)
+* [ChefDeprecations/LaunchdDeprecatedHashProperty](/workstation/cops_chefdeprecations/#chefdeprecationslaunchddeprecatedhashproperty)
+* [ChefDeprecations/LegacyNotifySyntax](/workstation/cops_chefdeprecations/#chefdeprecationslegacynotifysyntax)
+* [ChefDeprecations/LegacyYumCookbookRecipes](/workstation/cops_chefdeprecations/#chefdeprecationslegacyyumcookbookrecipes)
+* [ChefDeprecations/LocaleDeprecatedLcAllProperty](/workstation/cops_chefdeprecations/#chefdeprecationslocaledeprecatedlcallproperty)
+* [ChefDeprecations/LogResourceNotifications](/workstation/cops_chefdeprecations/#chefdeprecationslogresourcenotifications)
+* [ChefDeprecations/NamePropertyWithDefaultValue](/workstation/cops_chefdeprecations/#chefdeprecationsnamepropertywithdefaultvalue)
+* [ChefDeprecations/NodeDeepFetch](/workstation/cops_chefdeprecations/#chefdeprecationsnodedeepfetch)
+* [ChefDeprecations/NodeMethodsInsteadofAttributes](/workstation/cops_chefdeprecations/#chefdeprecationsnodemethodsinsteadofattributes)
+* [ChefDeprecations/NodeSet](/workstation/cops_chefdeprecations/#chefdeprecationsnodeset)
+* [ChefDeprecations/NodeSetUnless](/workstation/cops_chefdeprecations/#chefdeprecationsnodesetunless)
+* [ChefDeprecations/NodeSetWithoutLevel](/workstation/cops_chefdeprecations/#chefdeprecationsnodesetwithoutlevel)
+* [ChefDeprecations/PartialSearchClassUsage](/workstation/cops_chefdeprecations/#chefdeprecationspartialsearchclassusage)
+* [ChefDeprecations/PartialSearchHelperUsage](/workstation/cops_chefdeprecations/#chefdeprecationspartialsearchhelperusage)
+* [ChefDeprecations/PoiseArchiveUsage](/workstation/cops_chefdeprecations/#chefdeprecationspoisearchiveusage)
+* [ChefDeprecations/PowershellCookbookHelpers](/workstation/cops_chefdeprecations/#chefdeprecationspowershellcookbookhelpers)
+* [ChefDeprecations/RequireRecipe](/workstation/cops_chefdeprecations/#chefdeprecationsrequirerecipe)
+* [ChefDeprecations/ResourceInheritsFromCompatResource](/workstation/cops_chefdeprecations/#chefdeprecationsresourceinheritsfromcompatresource)
+* [ChefDeprecations/ResourceOverridesProvidesMethod](/workstation/cops_chefdeprecations/#chefdeprecationsresourceoverridesprovidesmethod)
+* [ChefDeprecations/ResourceUsesDslNameMethod](/workstation/cops_chefdeprecations/#chefdeprecationsresourceusesdslnamemethod)
+* [ChefDeprecations/ResourceUsesOnlyResourceName](/workstation/cops_chefdeprecations/#chefdeprecationsresourceusesonlyresourcename)
+* [ChefDeprecations/ResourceUsesProviderBaseMethod](/workstation/cops_chefdeprecations/#chefdeprecationsresourceusesproviderbasemethod)
+* [ChefDeprecations/ResourceUsesUpdatedMethod](/workstation/cops_chefdeprecations/#chefdeprecationsresourceusesupdatedmethod)
+* [ChefDeprecations/Ruby27KeywordArgumentWarnings](/workstation/cops_chefdeprecations/#chefdeprecationsruby27keywordargumentwarnings)
+* [ChefDeprecations/RubyBlockCreateAction](/workstation/cops_chefdeprecations/#chefdeprecationsrubyblockcreateaction)
+* [ChefDeprecations/SearchUsesPositionalParameters](/workstation/cops_chefdeprecations/#chefdeprecationssearchusespositionalparameters)
+* [ChefDeprecations/UseInlineResourcesDefined](/workstation/cops_chefdeprecations/#chefdeprecationsuseinlineresourcesdefined)
+* [ChefDeprecations/UserDeprecatedSupportsProperty](/workstation/cops_chefdeprecations/#chefdeprecationsuserdeprecatedsupportsproperty)
+* [ChefDeprecations/UsesChefRESTHelpers](/workstation/cops_chefdeprecations/#chefdeprecationsuseschefresthelpers)
+* [ChefDeprecations/UsesDeprecatedMixins](/workstation/cops_chefdeprecations/#chefdeprecationsusesdeprecatedmixins)
+* [ChefDeprecations/UsesRunCommandHelper](/workstation/cops_chefdeprecations/#chefdeprecationsusesruncommandhelper)
+* [ChefDeprecations/VerifyPropertyUsesFileExpansion](/workstation/cops_chefdeprecations/#chefdeprecationsverifypropertyusesfileexpansion)
+* [ChefDeprecations/WindowsFeatureServermanagercmd](/workstation/cops_chefdeprecations/#chefdeprecationswindowsfeatureservermanagercmd)
+* [ChefDeprecations/WindowsTaskChangeAction](/workstation/cops_chefdeprecations/#chefdeprecationswindowstaskchangeaction)
+* [ChefDeprecations/WindowsVersionHelpers](/workstation/cops_chefdeprecations/#chefdeprecationswindowsversionhelpers)
+
+## Department ChefEffortless
+
+[ChefEffortless](/workstation/cops_chefeffortless/) cops
+
+* [ChefEffortless/Berksfile](/workstation/cops_chefeffortless/#chefeffortlessberksfile)
+* [ChefEffortless/CookbookUsesDatabags](/workstation/cops_chefeffortless/#chefeffortlesscookbookusesdatabags)
+* [ChefEffortless/CookbookUsesEnvironmments](/workstation/cops_chefeffortless/#chefeffortlesscookbookusesenvironmments)
+* [ChefEffortless/CookbookUsesPolicygroups](/workstation/cops_chefeffortless/#chefeffortlesscookbookusespolicygroups)
+* [ChefEffortless/CookbookUsesRoles](/workstation/cops_chefeffortless/#chefeffortlesscookbookusesroles)
+* [ChefEffortless/CookbookUsesSearch](/workstation/cops_chefeffortless/#chefeffortlesscookbookusessearch)
+* [ChefEffortless/SearchForEnvironmentsOrRoles](/workstation/cops_chefeffortless/#chefeffortlesssearchforenvironmentsorroles)
+
+## Department ChefModernize
+
+[ChefModernize](/workstation/cops_chefmodernize/) cops
+
+* [ChefModernize/AllowedActionsFromInitialize](/workstation/cops_chefmodernize/#chefmodernizeallowedactionsfrominitialize)
+* [ChefModernize/ChefGemNokogiri](/workstation/cops_chefmodernize/#chefmodernizechefgemnokogiri)
+* [ChefModernize/CronManageResource](/workstation/cops_chefmodernize/#chefmodernizecronmanageresource)
+* [ChefModernize/CustomResourceWithAttributes](/workstation/cops_chefmodernize/#chefmodernizecustomresourcewithattributes)
+* [ChefModernize/DatabagHelpers](/workstation/cops_chefmodernize/#chefmodernizedatabaghelpers)
+* [ChefModernize/DefaultActionFromInitialize](/workstation/cops_chefmodernize/#chefmodernizedefaultactionfrominitialize)
+* [ChefModernize/DefinesChefSpecMatchers](/workstation/cops_chefmodernize/#chefmodernizedefineschefspecmatchers)
+* [ChefModernize/Definitions](/workstation/cops_chefmodernize/#chefmodernizedefinitions)
+* [ChefModernize/DependsOnZypperCookbook](/workstation/cops_chefmodernize/#chefmodernizedependsonzyppercookbook)
+* [ChefModernize/DslIncludeInResource](/workstation/cops_chefmodernize/#chefmodernizedslincludeinresource)
+* [ChefModernize/EmptyResourceInitializeMethod](/workstation/cops_chefmodernize/#chefmodernizeemptyresourceinitializemethod)
+* [ChefModernize/ExecuteAptUpdate](/workstation/cops_chefmodernize/#chefmodernizeexecuteaptupdate)
+* [ChefModernize/ExecuteScExe](/workstation/cops_chefmodernize/#chefmodernizeexecutescexe)
+* [ChefModernize/ExecuteSleep](/workstation/cops_chefmodernize/#chefmodernizeexecutesleep)
+* [ChefModernize/ExecuteSysctl](/workstation/cops_chefmodernize/#chefmodernizeexecutesysctl)
+* [ChefModernize/ExecuteTzUtil](/workstation/cops_chefmodernize/#chefmodernizeexecutetzutil)
+* [ChefModernize/FoodcriticComments](/workstation/cops_chefmodernize/#chefmodernizefoodcriticcomments)
+* [ChefModernize/IfProvidesDefaultAction](/workstation/cops_chefmodernize/#chefmodernizeifprovidesdefaultaction)
+* [ChefModernize/IncludingAptDefaultRecipe](/workstation/cops_chefmodernize/#chefmodernizeincludingaptdefaultrecipe)
+* [ChefModernize/IncludingMixinShelloutInResources](/workstation/cops_chefmodernize/#chefmodernizeincludingmixinshelloutinresources)
+* [ChefModernize/IncludingOhaiDefaultRecipe](/workstation/cops_chefmodernize/#chefmodernizeincludingohaidefaultrecipe)
+* [ChefModernize/IncludingWindowsDefaultRecipe](/workstation/cops_chefmodernize/#chefmodernizeincludingwindowsdefaultrecipe)
+* [ChefModernize/LegacyBerksfileSource](/workstation/cops_chefmodernize/#chefmodernizelegacyberksfilesource)
+* [ChefModernize/LibarchiveFileResource](/workstation/cops_chefmodernize/#chefmodernizelibarchivefileresource)
+* [ChefModernize/MacOsXUserdefaults](/workstation/cops_chefmodernize/#chefmodernizemacosxuserdefaults)
+* [ChefModernize/MinitestHandlerUsage](/workstation/cops_chefmodernize/#chefmodernizeminitesthandlerusage)
+* [ChefModernize/NodeInitPackage](/workstation/cops_chefmodernize/#chefmodernizenodeinitpackage)
+* [ChefModernize/NodeRolesInclude](/workstation/cops_chefmodernize/#chefmodernizenoderolesinclude)
+* [ChefModernize/OpensslRsaKeyResource](/workstation/cops_chefmodernize/#chefmodernizeopensslrsakeyresource)
+* [ChefModernize/OpensslX509Resource](/workstation/cops_chefmodernize/#chefmodernizeopensslx509resource)
+* [ChefModernize/OsxConfigProfileResource](/workstation/cops_chefmodernize/#chefmodernizeosxconfigprofileresource)
+* [ChefModernize/PowerShellGuardInterpreter](/workstation/cops_chefmodernize/#chefmodernizepowershellguardinterpreter)
+* [ChefModernize/PowershellInstallPackage](/workstation/cops_chefmodernize/#chefmodernizepowershellinstallpackage)
+* [ChefModernize/PowershellInstallWindowsFeature](/workstation/cops_chefmodernize/#chefmodernizepowershellinstallwindowsfeature)
+* [ChefModernize/PowershellScriptExpandArchive](/workstation/cops_chefmodernize/#chefmodernizepowershellscriptexpandarchive)
+* [ChefModernize/PropertyWithNameAttribute](/workstation/cops_chefmodernize/#chefmodernizepropertywithnameattribute)
+* [ChefModernize/ProvidesFromInitialize](/workstation/cops_chefmodernize/#chefmodernizeprovidesfrominitialize)
+* [ChefModernize/ResourceForcingCompileTime](/workstation/cops_chefmodernize/#chefmodernizeresourceforcingcompiletime)
+* [ChefModernize/ResourceNameFromInitialize](/workstation/cops_chefmodernize/#chefmodernizeresourcenamefrominitialize)
+* [ChefModernize/RespondToCompileTime](/workstation/cops_chefmodernize/#chefmodernizerespondtocompiletime)
+* [ChefModernize/RespondToInMetadata](/workstation/cops_chefmodernize/#chefmodernizerespondtoinmetadata)
+* [ChefModernize/RespondToProvides](/workstation/cops_chefmodernize/#chefmodernizerespondtoprovides)
+* [ChefModernize/RespondToResourceName](/workstation/cops_chefmodernize/#chefmodernizerespondtoresourcename)
+* [ChefModernize/SetOrReturnInResources](/workstation/cops_chefmodernize/#chefmodernizesetorreturninresources)
+* [ChefModernize/SevenZipArchiveResource](/workstation/cops_chefmodernize/#chefmodernizesevenziparchiveresource)
+* [ChefModernize/ShellOutHelper](/workstation/cops_chefmodernize/#chefmodernizeshellouthelper)
+* [ChefModernize/ShellOutToChocolatey](/workstation/cops_chefmodernize/#chefmodernizeshellouttochocolatey)
+* [ChefModernize/SimplifyAptPpaSetup](/workstation/cops_chefmodernize/#chefmodernizesimplifyaptppasetup)
+* [ChefModernize/SysctlParamResource](/workstation/cops_chefmodernize/#chefmodernizesysctlparamresource)
+* [ChefModernize/UnnecessaryDependsChef14](/workstation/cops_chefmodernize/#chefmodernizeunnecessarydependschef14)
+* [ChefModernize/UnnecessaryMixlibShelloutRequire](/workstation/cops_chefmodernize/#chefmodernizeunnecessarymixlibshelloutrequire)
+* [ChefModernize/UseBuildEssentialResource](/workstation/cops_chefmodernize/#chefmodernizeusebuildessentialresource)
+* [ChefModernize/UseMultipackageInstalls](/workstation/cops_chefmodernize/#chefmodernizeusemultipackageinstalls)
+* [ChefModernize/UseRequireRelative](/workstation/cops_chefmodernize/#chefmodernizeuserequirerelative)
+* [ChefModernize/UsesZypperRepo](/workstation/cops_chefmodernize/#chefmodernizeuseszypperrepo)
+* [ChefModernize/WhyRunSupportedTrue](/workstation/cops_chefmodernize/#chefmodernizewhyrunsupportedtrue)
+* [ChefModernize/WindowsRegistryUAC](/workstation/cops_chefmodernize/#chefmodernizewindowsregistryuac)
+* [ChefModernize/WindowsScResource](/workstation/cops_chefmodernize/#chefmodernizewindowsscresource)
+* [ChefModernize/WindowsZipfileUsage](/workstation/cops_chefmodernize/#chefmodernizewindowszipfileusage)
+* [ChefModernize/ZipfileResource](/workstation/cops_chefmodernize/#chefmodernizezipfileresource)
+
+## Department ChefRedundantCode
+
+[ChefRedundantCode](/workstation/cops_chefredundantcode/)
+
+* [ChefRedundantCode/AptRepositoryDistributionDefault](/workstation/cops_chefredundantcode/#chefredundantcodeaptrepositorydistributiondefault)
+* [ChefRedundantCode/AptRepositoryNotifiesAptUpdate](/workstation/cops_chefredundantcode/#chefredundantcodeaptrepositorynotifiesaptupdate)
+* [ChefRedundantCode/AttributeMetadata](/workstation/cops_chefredundantcode/#chefredundantcodeattributemetadata)
+* [ChefRedundantCode/ConflictsMetadata](/workstation/cops_chefredundantcode/#chefredundantcodeconflictsmetadata)
+* [ChefRedundantCode/CustomResourceWithAllowedActions](/workstation/cops_chefredundantcode/#chefredundantcodecustomresourcewithallowedactions)
+* [ChefRedundantCode/GroupingMetadata](/workstation/cops_chefredundantcode/#chefredundantcodegroupingmetadata)
+* [ChefRedundantCode/LongDescriptionMetadata](/workstation/cops_chefredundantcode/#chefredundantcodelongdescriptionmetadata)
+* [ChefRedundantCode/MultiplePlatformChecks](/workstation/cops_chefredundantcode/#chefredundantcodemultipleplatformchecks)
+* [ChefRedundantCode/NamePropertyIsRequired](/workstation/cops_chefredundantcode/#chefredundantcodenamepropertyisrequired)
+* [ChefRedundantCode/OhaiAttributeToString](/workstation/cops_chefredundantcode/#chefredundantcodeohaiattributetostring)
+* [ChefRedundantCode/PropertySplatRegex](/workstation/cops_chefredundantcode/#chefredundantcodepropertysplatregex)
+* [ChefRedundantCode/PropertyWithRequiredAndDefault](/workstation/cops_chefredundantcode/#chefredundantcodepropertywithrequiredanddefault)
+* [ChefRedundantCode/ProvidesMetadata](/workstation/cops_chefredundantcode/#chefredundantcodeprovidesmetadata)
+* [ChefRedundantCode/RecipeMetadata](/workstation/cops_chefredundantcode/#chefredundantcoderecipemetadata)
+* [ChefRedundantCode/ReplacesMetadata](/workstation/cops_chefredundantcode/#chefredundantcodereplacesmetadata)
+* [ChefRedundantCode/ResourceWithNothingAction](/workstation/cops_chefredundantcode/#chefredundantcoderesourcewithnothingaction)
+* [ChefRedundantCode/SensitivePropertyInResource](/workstation/cops_chefredundantcode/#chefredundantcodesensitivepropertyinresource)
+* [ChefRedundantCode/StringPropertyWithNilDefault](/workstation/cops_chefredundantcode/#chefredundantcodestringpropertywithnildefault)
+* [ChefRedundantCode/SuggestsMetadata](/workstation/cops_chefredundantcode/#chefredundantcodesuggestsmetadata)
+* [ChefRedundantCode/UnnecessaryDesiredState](/workstation/cops_chefredundantcode/#chefredundantcodeunnecessarydesiredstate)
+* [ChefRedundantCode/UnnecessaryNameProperty](/workstation/cops_chefredundantcode/#chefredundantcodeunnecessarynameproperty)
+* [ChefRedundantCode/UseCreateIfMissing](/workstation/cops_chefredundantcode/#chefredundantcodeusecreateifmissing)
+
+## Department ChefSharing
+
+[ChefSharing](/workstation/cops_chefsharing/) cops
+
+* [ChefSharing/DefaultMetadataMaintainer](/workstation/cops_chefsharing/#chefsharingdefaultmetadatamaintainer)
+* [ChefSharing/EmptyMetadataField](/workstation/cops_chefsharing/#chefsharingemptymetadatafield)
+* [ChefSharing/IncludePropertyDescriptions](/workstation/cops_chefsharing/#chefsharingincludepropertydescriptions)
+* [ChefSharing/IncludeResourceDescriptions](/workstation/cops_chefsharing/#chefsharingincluderesourcedescriptions)
+* [ChefSharing/IncludeResourceExamples](/workstation/cops_chefsharing/#chefsharingincluderesourceexamples)
+* [ChefSharing/InsecureCookbookURL](/workstation/cops_chefsharing/#chefsharinginsecurecookbookurl)
+* [ChefSharing/InvalidLicenseString](/workstation/cops_chefsharing/#chefsharinginvalidlicensestring)
+
+## Department ChefStyle
+
+[ChefStyle](/workstation/cops_chefstyle/) cops
+
+* [ChefStyle/AttributeKeys](/workstation/cops_chefstyle/#chefstyleattributekeys)
+* [ChefStyle/ChefWhaaat](/workstation/cops_chefstyle/#chefstylechefwhaaat)
+* [ChefStyle/CommentFormat](/workstation/cops_chefstyle/#chefstylecommentformat)
+* [ChefStyle/CommentSentenceSpacing](/workstation/cops_chefstyle/#chefstylecommentsentencespacing)
+* [ChefStyle/CopyrightCommentFormat](/workstation/cops_chefstyle/#chefstylecopyrightcommentformat)
+* [ChefStyle/DefaultCopyrightComments](/workstation/cops_chefstyle/#chefstyledefaultcopyrightcomments)
+* [ChefStyle/FileMode](/workstation/cops_chefstyle/#chefstylefilemode)
+* [ChefStyle/ImmediateNotificationTiming](/workstation/cops_chefstyle/#chefstyleimmediatenotificationtiming)
+* [ChefStyle/NegatingOnlyIf](/workstation/cops_chefstyle/#chefstylenegatingonlyif)
+* [ChefStyle/OverlyComplexSupportsDependsMetadata](/workstation/cops_chefstyle/#chefstyleoverlycomplexsupportsdependsmetadata)
+* [ChefStyle/SimplifyPlatformMajorVersionCheck](/workstation/cops_chefstyle/#chefstylesimplifyplatformmajorversioncheck)
+* [ChefStyle/TrueClassFalseClassResourceProperties](/workstation/cops_chefstyle/#chefstyletrueclassfalseclassresourceproperties)
+* [ChefStyle/UnnecessaryOSCheck](/workstation/cops_chefstyle/#chefstyleunnecessaryoscheck)
+* [ChefStyle/UnnecessaryPlatformCaseStatement](/workstation/cops_chefstyle/#chefstyleunnecessaryplatformcasestatement)
+* [ChefStyle/UsePlatformHelpers](/workstation/cops_chefstyle/#chefstyleuseplatformhelpers)
+
+<!-- END_COP_LIST -->

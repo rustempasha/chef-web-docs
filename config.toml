@@ -826,6 +826,12 @@ weight = 10
     weight = 70
 
     [[menu.workstation]]
+    title = "Cookstyle Cops"
+    identifier = "chef_workstation/chef_workstation_tools/cookstyle_cops"
+    parent = "chef_workstation/chef_workstation_tools"
+    weight = 95
+
+    [[menu.workstation]]
     title = "Delivery CLI"
     identifier = "chef_workstation/chef_workstation_tools/delivery_cli.md Delivery CLI"
     parent = "chef_workstation/chef_workstation_tools"
