@@ -1,6 +1,5 @@
 ---
 resource_reference: true
-properties_shortcode:
 resources_common_guards: true
 resources_common_notification: true
 resources_common_properties: true
@@ -34,11 +33,11 @@ syntax_full_properties_list:
 - "`cert_name` and `certificate` are the properties available to this resource."
 actions_list:
   :add:
-    markdown:
+    markdown: Add the trusted certificate
   :nothing:
     shortcode: resources_common_actions_nothing.md
   :remove:
-    markdown:
+    markdown: Remove the trusted certificate
 properties_list:
 - property: cert_name
   ruby_type: String
